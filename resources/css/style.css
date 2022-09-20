@@ -21,7 +21,7 @@ h1 {
 }
 
 .wrapper {
-  background-image: url(/resources/image/teaserSite-background-blue.jpg);
+  background-image: url(../image/teaserSite-background-blue.jpg);
   background-repeat: no-repeat;
   width: 100vw;
   height: 100vh;
@@ -42,6 +42,12 @@ a {
 
 .uppercase {
   text-transform: uppercase;
+}
+
+@media screen and (max-width:600px) {
+  .wrapper {
+  background-position: 50% 15%;
+  }
 }
 
 /* header */
@@ -68,9 +74,15 @@ header {
     margin: 3rem;
   }
 
-  .catchphrase {
+  header {
+    flex-wrap: nowrap;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  /* .catchphrase {
     max-width: 10rem;
-  };
+  } */
 }
 
 /* main */
@@ -141,4 +153,7 @@ footer{
     bottom: 5rem;
   }
   
+  .contact {
+    gap: 2rem;
+  }
 }
