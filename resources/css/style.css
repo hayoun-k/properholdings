@@ -67,6 +67,29 @@ header {
   color: white;
   font-family: var(--fnt-secondary);
   font-size: 1.2rem;
+  position: relative;
+}
+
+.catchphrase::before {
+  content: '';
+  width: 10px;
+  height: 2px;
+  background-color: white;
+  position: absolute;
+  top: calc(50% - 2px);
+  left: -1.8rem;
+  border-radius: 5px;
+}
+
+.catchphrase::after {
+  content: '';
+  width: 10px;
+  height: 2px;
+  background-color: white;
+  position: absolute;
+  top: calc(50% - 2px);
+  right: -1.8rem;
+  border-radius: 5px;
 }
 
 @media screen and (max-width:600px) {
