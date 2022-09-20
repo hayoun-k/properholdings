@@ -16,6 +16,10 @@
   }
 }
 
+h1 {
+  font-weight: 300;
+}
+
 .wrapper {
   background-image: url(/resources/image/teaserSite-background-blue.jpg);
   background-repeat: no-repeat;
@@ -110,6 +114,7 @@ main {
   width: 2em;
   left: calc(50% - 1em);
 }
+
 /* footer */
 footer{
   position: absolute;
