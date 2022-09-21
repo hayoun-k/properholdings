@@ -39,10 +39,14 @@
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 899px) {
   html {
     font-size: 10px;
   }
+}
+
+body {
+  overflow: hidden;
 }
 
 h1 {
@@ -74,7 +78,7 @@ a {
   text-transform: uppercase;
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:899px) {
   .wrapper {
   background-position: 50% 15%;
   }
@@ -126,7 +130,7 @@ header {
   font-style: italic;
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:899px) {
   header, footer {
     margin: 3rem;
   }
@@ -180,8 +184,8 @@ main {
 }
 
 .call a:hover::before {
-  width: 2em;
-  left: calc(50% - 1em);
+  width: 100%;
+  left: 0;
 }
 
 /* footer */
@@ -205,7 +209,7 @@ footer{
   font-size: 2.2rem;
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:899px) {
   footer {
     bottom: 5rem;
   }
