@@ -72,7 +72,7 @@
 }
 
 body {
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 h1 {
@@ -258,11 +258,13 @@ main {
   margin-right: 5rem;
   padding-left: 2rem;
   padding-right: 2rem; */
-  position: relative;
+  position: absolute;
+  top: 0;
+  width: 100%;
 }
 
 .call {
-  position: fixed;
+  position: absolute;
   top: calc(50vh - 4rem);
   width: 100%;
   display: flex;
