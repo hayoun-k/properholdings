@@ -242,6 +242,16 @@ header {
   }
 }
 
+@media screen and (max-width:389px ) {
+  .logo-mobile h2 {
+    font-size: 1.8rem;
+  }
+
+  .catchphrase {
+    font-size: 1.1rem;
+  }
+}
+
 /* main */
 main {
   /* margin-left: 5rem;
