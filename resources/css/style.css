@@ -110,7 +110,8 @@ h1 {
   background-position: 50%;
   filter: brightness(0.5); */
 
-  background-image: url(../image/bg-test-3.jpg);
+  /* background-image: url(../image/bg-test-3.jpg); */
+  background-image: url(../image/bg-test-3-opt.jpg);
   background-size: cover;
   filter: grayscale(100%) brightness(0.5);
 
